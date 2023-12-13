@@ -1,0 +1,108 @@
+
+*{  
+    margin:auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+section{
+    width: 700px;
+    padding: 30px;
+    border-radius: 20px;
+    border: 3px solid red;
+    box-shadow: 30px 30px 100px black;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 60px;
+    color: whitesmoke;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.main-user{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.jbpogi{
+    width: 250px;
+    padding-bottom: 15px;
+    color: black;
+    font-size: 20px;
+}
+.jbpogi input{
+    height: 50px;
+    width: 100%;
+    border-radius: 13px;
+    outline: none;
+    border: 1px solid blue;
+    padding: 0 10px;
+    text-align: center;
+
+}
+.gen{
+    color: black;
+    font-size: 24px;
+    font-weight: 600;
+}
+.gender{
+    margin: 18px;
+    color: black;
+
+}
+.Register input{ 
+    display: block;
+    width: 600px;
+    margin-top: 10px;
+    font-size: 28px;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+h1.gen{
+    text-align:left;
+    padding-bottom: 10px;
+    color: aliceblue;
+}
+div.gender{
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align-last: center;
+}
+label{
+    color: whitesmoke;
+    font-size: 20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+@media (max-width: 420px){
+section{
+    padding-top: 100vw;
+    padding-bottom: 100vw;
+    height: 12.5vw;
+    width: 100vw;
+}
+h1.gen{
+    padding-bottom: 2vw;
+    padding-top: 0vw;
+}
+h1{
+    font-size: 10vw;
+}
+.Register input{
+    text-align:center;
+    width: 60vw;
+}
+
+.container{
+    margin-top: 0%;
+}
+
+}
